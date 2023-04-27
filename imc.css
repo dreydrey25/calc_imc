@@ -1,0 +1,44 @@
+/* Defina as fontes e o tamanho do corpo do texto */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0 auto;
+      
+  }
+  
+  /* Defina a largura e a altura do campo de entrada e do botão */
+  input[type="text"], input[type="submit"] {
+    width: 200px;
+    height: 30px;
+    border: 1px solid #7bff97;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilize o botão para que ele pareça um botão */
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+  }
+  
+  /* Estilize o título e o subtítulo da página */
+  #boasVindas {
+    text-align: center;
+  }
+  
+  #texto {
+    font-size: 32px;
+  }
+  
+  #descExercicio {
+    margin: 30px 0px;
+  }
+  
+  /* Estilize o resultado */
+  #resultado {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  
